@@ -73,6 +73,6 @@ angular.module('spends').controller('SpendsController', ['$scope', '$stateParams
         total += spend.cost;
     }
     return total;
-}
+};
 	}
 ]);

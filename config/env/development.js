@@ -1,28 +1,28 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://localhost/letsflyto',
+	db: 'mongodb://localhost/suxse',
 	app: {
-		title: 'Atlasam Gitsem'
+		title: 'Suxse | keep your wallet'
 	},
 	facebook: {
-		clientID: process.env.FACEBOOK_ID || '541539029285192',
-		clientSecret: process.env.FACEBOOK_SECRET || 'f4638be7762d513d033a2d74f305aa9a',
+		clientID: process.env.FACEBOOK_ID || '711674055562675',
+		clientSecret: process.env.FACEBOOK_SECRET || 'b78d810c3d64ecaad4b8dbaec69f58fe',
 		callbackURL: 'http://localhost:3000/auth/facebook/callback'
 	},
 	twitter: {
-		clientID: process.env.TWITTER_KEY || 'qx072CF50YJt6D2iVmuLZ8nfX',
-		clientSecret: process.env.TWITTER_SECRET || 'PkqKnVewe8kULznjouYW2HNPxHq7qdVsxWtvdWSFj7DlRDbZeK',
+		clientID: process.env.TWITTER_KEY || '17uTyTPZtrRtyvbWfS8RxRWX7',
+		clientSecret: process.env.TWITTER_SECRET || '91TF7wWrDHrYw3YfFQfdM2Ozz8UWtVipUztLBLlQ9lmLzTiuBy',
 		callbackURL: 'http://localhost:3000/auth/twitter/callback'
 	},
 	google: {
-		clientID: process.env.GOOGLE_ID || '1061241536422-lq10ppt1ou48lcmd6r5kp1efer7s0ho4.apps.googleusercontent.com',
-		clientSecret: process.env.GOOGLE_SECRET || 'P442zZQ-Ww6Oqz7Wta9ku6Db',
+		clientID: process.env.GOOGLE_ID || '56355999030-7adltda7s27ef4ddc93mvadul9u87d6r.apps.googleusercontent.com',
+		clientSecret: process.env.GOOGLE_SECRET || 'XApEjXLYBxXkZaSMVPmSLLKB',
 		callbackURL: 'http://localhost:3000/auth/google/callback'
 	},
 	linkedin: {
-		clientID: process.env.LINKEDIN_ID || '91598a91-7a7e-4f55-8167-7f84b3d09aed',
-		clientSecret: process.env.LINKEDIN_SECRET || 'c4b7c27c-de4b-4321-8420-ece30cc1ddac',
+		clientID: process.env.LINKEDIN_ID || '75y6fdfulfraek',
+		clientSecret: process.env.LINKEDIN_SECRET || 'Mm4pGvEnZQ5xxecw',
 		callbackURL: 'http://localhost:3000/auth/linkedin/callback'
 	}
 };
